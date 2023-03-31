@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icono -->
+        <script src="https://Kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+<link rel="stylesheet" href="CSS/vehiculos.css">
+    <title>Control Temperaturas</title>
+
+</head>
+<body id="body" class="body">
+    <!-- Menú -->
+    <div class="container">
+        <!-- Div Logo -->
+            <div class="collapse">
+                <a href=><img src="img/coltrack-horizontal.png" class="logo"></a>
+            </div >
+
+            <!--div menu-->
+                <nav class="navegacion">
+                    <ul class="menu">
+                        <li><a href="index.html"> Inicio </a></li>
+                        <li><a href="vehiculos.html"> Vehiculos </a>
+                            <ul class="submenu">
+                                <li><a href="Vactivos.html"> Activos </a></li>
+                                <li><a href="Vinactivos.html"> Inactivos </a></li>
+                            </ul>
+                        </li>
+                </nav>
+
+        <!-- inicio sesion enlace -->
+        
+        <ul class="menu">
+            <li><a href="index.html"> Logout </a></li>
+        </ul>
+
+    </div>
+    </section>
+  
+    <div id="map"></div>
+        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+        <script src="JS/script.js"></script>
+        <script src="JS/index.js"></script>
+    </div>
+
+    <!-- <input type="button" class="btn btn-primary" value=" DATOS " onclick="javascript:CallWebAPI();" /></div> -->
+
+    <section class="table"></section>
+    <table >
+        
+        <tr>
+            <th>NOMBRE</th>
+            <th>PLACA</th>
+            <th>LON</th>
+            <th>LAT</th>
+            <th>TIEMPO</th>
+            <!-- <th>INACTIVO</th> -->
+            <th>UBICACION</th>
+            <th>CIUDAD</th>
+            <th>VELOCIDAD</th>
+            <th>RUMBO</th>
+            <th>POI</th>
+            <th>COS</th>
+            <th>EVENTO</th>
+            <th>IGNICION</th>
+            <th>ENTRADAS</th>
+            <th>TIPO</th>
+            <th>ODOMETRO</th>
+            <th>TEMPERATURA</th>
+        </tr>
+
+        </table>
+    <!-- Pie de pagina -->
+    <footer class="pie_de_pagina">
+        <div class="grup-dos">
+            <small>&copy; 2022 © Copyright Coltrack SAS. Todos los derechos reservados.
+            </small>
+        </div>
+    </footer>
+</body>
+</html>

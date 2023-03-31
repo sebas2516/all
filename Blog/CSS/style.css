@@ -1,0 +1,1446 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); */
+/* .all{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, auto);
+} */
+.head{
+    background-image: url("/IMG/camion1.png");
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    width: 100%;
+    height: 730px;
+    border: 1px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.C-S{
+    width: 60%;
+    height: 680px;
+    float: left;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.C-S1{
+    background-image: url(/IMG/marco2.PNG) ;
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 55%;
+    margin-top: 110px;
+}
+.div-uno{
+    background-color: rgba(228, 228, 228, 0.4);
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    height: 750px;
+}
+.div-dos{
+    background-color: rgba(228, 228, 228, 0.4);
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    height: 800px;
+}
+.div-tres{
+    background-color: rgba(228, 228, 228, 0.4);
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    height: 750px;
+}
+.div-cuatro{
+    background-color: rgba(228, 228, 228, 0.4);
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    height: 900px;
+}
+.div-cinco{
+    background-color: rgba(228, 228, 228, 0.4);
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    height: 750px;
+}
+.div-seis{
+    background-color: rgba(228, 228, 228, 0.4);
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+    height: 800px;
+}
+.logos{
+    background: rgba(20, 33, 55, 0.80);
+    height: 80px;
+}
+.logoColtrack{
+    width: 15%;
+    margin: 0.5% 0px 25px 90px;
+    height: 60px;
+}
+.whatsApp{
+    height: 60px;
+    margin: 0.5% 0px 15px 50%;
+}
+.text1{
+    width: 85%;
+    font-size: 65px;
+    color: white;
+    font-weight: bold;
+    margin: 80px 80px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.text2{
+    width: 80%;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    margin: 70px 8px 0px 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #142137;
+}
+a:hover{
+    text-decoration: none;
+    color: #142137;
+}
+.text3{
+    width: 50%;
+    font-size: 28px;
+    color: white;
+    font-weight: 700;
+    margin: 0px 8px 5px 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+.basc{
+    width: 120px;
+    margin: 40px 100px;
+}
+.candado{
+    width: 430px;
+    border-radius: 50%;
+    border: 15px solid #22afe6;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 6% 4%;
+    height: 420px;
+}
+#coltrack{
+    background-image: url(/IMG/containers.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.div-dos{
+    padding-top: 1%;
+}
+.marco11{
+    background: url(/IMG/marco.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 95%;
+    margin: 0% 5%;
+}
+.video{
+    float: left;
+    width: 92%;
+    height: 92.5%;
+    margin: 0.8% 4%;
+}
+.DTC{
+    background-image: url(/IMG/carretera.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.sect1{
+    margin: 0px 10%;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.3);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1);
+}
+.sect2{
+    margin: 26px 10%;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.3);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1);
+}
+.DTC1{
+    width: 120%;
+    height: 90%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.DTC2{
+    width: 70%;
+    height: 50%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    float: left;
+    margin: 12% 20%;
+    font-family: 'Montserrat', sans-serif;
+}
+.DTC3{
+    width: 120%;
+    height: 88%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.DTC4{
+    width: 70%;
+    height: 40%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    float: left;
+    margin: 12% 22%;
+    font-family: 'Montserrat', sans-serif;
+}
+.F1{
+    background-image: url(/IMG/fondo1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 35%;
+}
+.F2{
+    background-image: url(/IMG/fondo2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 40%;
+}
+.texto{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.triangulos1{
+    width: 8%;
+    margin: 6% 0% 0% 8%;
+    float: left;
+}
+.triangulos2{
+    width: 60px;
+    margin: 6% 0% 0% 8%;
+    float: left;
+}
+.transito{
+    font-size: 34px;
+    color: white;
+    margin: 6% 7% 0%;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+}
+.imgs1{
+    width: 100%;
+    height: 40%;
+    margin-top: 27px;
+}
+.imgs2{
+    width: 100%;
+    height: 40%;
+    margin-top: 27px;
+}
+.transito2{
+    font-size: 34px;
+    color: white;
+    margin: 6% 7% 0%;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+}
+.combi1{
+    width: 80%;
+    height: 100%;
+    margin: 4% 8%;
+}
+.combi2{
+    width: 80%;
+    height: 110%;
+    margin: 4% 8%;
+}
+.ventajas{
+    background-image: url(/IMG/truck_carretera.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 860px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.Opr{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+h4{
+    text-align: left;
+    color: black;
+    font-size: 35px;
+    margin-left: 200px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.columnas1{
+    margin: 0px 5%;
+    width: 90%;
+    height: 300px;
+}
+.columna1{
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    background: rgba(76, 97, 120, 0.9);
+}
+.img1{
+    margin: 10% 35% 5%;
+    width: 120px;
+}
+.p1{
+    text-transform: none;
+    color: #ffffff;
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+.columna2{
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    background: rgba(180, 157, 59, 0.9);
+}
+.img2{
+    margin: 10% 35% 2%;
+    width: 110px;
+}
+.p2{
+    text-transform: none;
+    color: #ffffff;
+    text-align: justify;
+    font-size: 20px;
+    margin: 0% 3%;
+    width: 80%;
+    margin: 5% 10%;
+    letter-spacing: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.columna3{
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    background: rgba(56, 145, 184, 0.9);
+}
+.img3{
+    margin: 10% 35% 5%;
+    width: 120px;
+}
+.p3{
+    text-transform: none;
+    color: #ffffff;
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.riesgos{
+    text-align: left;
+    color: black;
+    font-size: 35px;
+    margin: 1% 10%;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.columnas2{
+    margin: 0px 5% 20%;
+    width: 90%;
+    height: 300px;
+}
+.columna4{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background: rgba(76, 97, 120, 0.9);
+    margin-left: 10%;
+}
+.img4{
+    margin: 5% 37.5% 0%;
+    width: 25%;
+}
+.p4{
+    color: #ffffff;
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 30px;
+    width: 70%;
+    margin: 2% 15%;
+    font-family: 'Montserrat', sans-serif;
+}
+.columna5{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background: rgba(180, 157, 59, 0.9);
+}
+.img5{
+    margin: 8% 37.5% 2%;
+    width: 25%;
+}
+.p5{
+    text-transform: none;
+    color: #ffffff;
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 30px;
+    width: 80%;
+    margin: 0% 10%;
+    font-family: 'Montserrat', sans-serif;
+}
+.descripcion{
+    background-image: url(/IMG/carretera1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.desc{
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 100px;
+    border-top: 8px dashed #fac103;
+    border-bottom: 8px dashed #fac103;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 70%;
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.arrow{
+    background-image: url(/IMG/marco3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 42%;
+    margin: 3% 5% 0%;
+    border: solid transparent;
+}
+.control{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.ctrl{
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin: 2% 0%;
+}
+.img-ctrl{
+    width: 28%;
+    margin: 0% 36%;
+}
+.ctrl1{
+    width: 80%;
+    margin: 1% 12%;
+    font-size: 22px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+.seguimiento{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.segto{
+    float: left;
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin: 2% 0%;
+}
+.img-segto{
+    width: 40%;
+    margin: 1% 32%;
+}
+.segto1{
+    width: 80%;
+    margin: 2% 10%;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+.sistematizacion{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.sist{
+    float: left;
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    margin: 2% 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+.img-sist{
+    width: 35%;
+    margin: 1% 33%;
+}
+.sist1{
+    width: 80%;
+    margin: 1% 10%;
+    font-size: 22px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+.acompañamiento{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.acomp{
+    float: left;
+    font-size: 32px;
+    text-align: center;
+    width: 100%;
+    margin: 2% 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+.img-acomp{
+    width: 30%;
+    margin: 2% 32%;
+}
+.acomp1{
+    width: 80%;
+    margin: 1% 8%;
+    font-size: 22px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+.H-uno{
+    margin: 25% 1% ;
+}
+.desc1{
+    text-align: left;
+    border-bottom: 8px dashed #fac103;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.services{
+    background-image: url(/IMG/trucks.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 750px;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.lines{
+    background-image: url(/IMG/marco4.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 90px;
+}
+.globos{
+    background-image: url(/IMG/fondo3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+.fondo3{
+    margin: 0px 5%;
+    width: 90%;
+}
+.serv1{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    margin: 5% 5%;
+    width: 80%;
+    padding-top: 1%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.globo1{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.world{
+    width: 43%;
+    margin: 60% 25% 0%;
+}
+.world1{
+    width: 60%;
+    margin: 1% 16%;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.globo2{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.lock{
+    width: 50%;
+    margin: 10% 25% 0%;
+}
+.lock1{
+    width: 60%;
+    margin: 10% 20%;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.globo3{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.mapa{
+    width: 50%;
+    margin: 60% 25% 0%;
+}
+.mapa1{
+    width: 60%;
+    margin: 6% 25%;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.globo4{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.radar{
+    width: 40%;
+    margin: 5% 30% 0%;
+}
+.radar1{
+    width: 60%;
+    margin: 0% 20%;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.mapa2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1);
+    width: 100%;
+    height: 700px;
+    background: #142137;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.ubicacion{
+    background-image: url(/IMG/edificio.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.gray{
+    background-color: rgba(228, 228, 228, 0.3);
+    height: 100%;
+    width: 100%;
+}
+.mapa3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 100%;
+}
+.map-google{
+    width: 100%;
+    height: 100%;
+}
+.ubi1{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    width: 60%;
+    margin: 0% 20% 5%;
+    font-weight: bold;
+}
+.logo{
+    width: 40%;
+    margin-left: 30%;
+}
+.whatsApp3{
+    width: 50%;
+    margin: 10% 25% 8% 25%;
+}
+.num{
+    width: 50%;
+    color: black;
+    margin: 2px 25% 0px 30%;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.email{
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    margin: 8% 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+.redes{
+    width: 80%;
+    margin: 8% 10% 0%;
+    height: 65px;
+}
+#inst{
+    width: 25%;
+    color: #142137;
+    text-align: center;
+    font-size: 40px;
+    float: left;
+}
+#lnkd{
+    width: 25%;
+    color:#142137;
+    text-align: center;
+    font-size: 40px;
+    float: left;
+}
+#twitter{
+    width: 25%;
+    color:#142137;
+    text-align: center;
+    font-size: 40px;
+    float: left;
+}
+#fcbk{
+    width: 25%;
+    color:#142137;
+    text-align: center;
+    font-size: 40px;
+    float: left;
+}
+.footer{
+    background: rgba(20, 33, 55, 0.9);
+    color:#fff;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20%;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .head, #coltrack, .DTC, .ventajas, .descripcion, .services{
+        background-image: none;
+        background: rgb(60,173,217);
+        background: linear-gradient(0deg, rgba(60,173,217,1) 0%, rgba(159,157,156,1) 100%);
+    }
+    .head{
+        height: 630px;
+    }
+    .div-uno,
+    .div-dos,
+    .div-tres,
+    .div-cuatro,
+    .div-cinco, .div-seis{
+        background: none;
+    }
+    .logoColtrack{
+        margin: 10px;
+        width: 45%;
+        height: 60%;
+        float: left;
+        margin: 4% 0px 10px 2%;
+    }
+    .whatsApp{
+        margin: 6% 0px 10px 10%;
+        float: left;
+        width: 40%;
+        height: 40%;
+    }
+    .C-S{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        width: 100%;
+        height: 45%;
+        margin: 0;
+    }
+    .C-S1{
+        background-image: url(/IMG/marco2.PNG) ;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 60%;
+        margin: 3% 0% 0% 0%;
+    }
+    .text1{
+        font-size: 28px;
+        margin: 13% 0% 0px 4%;
+        width: 91%;
+    }
+    .text2{
+        font-size: 16px;
+        margin: 14% 0% 0% 1%;
+        width: 100%;
+    }
+    .text3{
+        font-size: 16px;
+        margin: 0px 0% 5% 1%;
+        width: 80%;
+    }
+    .candado{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        width: 70%;
+        height: 70%;
+        margin: -30% 0% 0% 15%;
+        border: 10px solid #22afe6;
+    }
+    .basc{
+        margin: 70% 5% 0% 3%;
+        width: 80px;
+    }
+    #coltrack{
+        height: 250px;
+    }
+    .div-dos{
+        height: 250px;
+    }
+    .marco11{
+        background: url(/IMG/marco.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        margin: 0% 0% 0% 0%;
+    }
+    .div-dos{
+        padding-top: 0%;
+    }
+    .video{
+        float: left;
+        width: 92%;
+        height: 92.5%;
+        margin: 2.7% 4%;
+    }
+    .DTC{
+        height: 725px;
+    }
+    .sect1{
+        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin: 0;
+        height: 310px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .texto{
+        text-align: left;
+        color: #142137;
+        font-weight: 700;
+        font-size: 22px;
+        width: 90%;
+        margin: 0% 5% 2% 5%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .triangulos1{
+        width: 42px;
+        margin: 6% 0% 0% 8%;
+    }
+    .transito{
+        font-size: 20px;
+        color: white;
+        margin: 7% 9% 0%;
+        float: left;
+    }
+    .DTC1{
+        width: 100%;
+        height: 100%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .div-tres{
+        height: 725px;
+    }
+    .F1{
+        width: 100%;
+        height: 45%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .F2{
+        width: 100%;
+        height: 42%;
+    }
+    .imgs1{
+        width: 100%;
+        height: 45%;
+        margin: 1% 0% 0%;
+    }
+    .combi1{
+        width: 90%;
+        margin: 2% 5%;
+    }
+    .DTC2{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        width: 80%;
+        height: 100%;
+        margin: 5% 10%;
+        font-size: 15px;
+        float: left;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        text-align: justify;
+    }
+    .sect2{
+        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin: 3% 0%;
+        height: 310px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .triangulos2{
+        width: 42px;
+        margin: 6.8% 0% 0% 8%;
+    }
+    .transito2{
+        font-size: 20px;
+        color: white;
+        margin: 8% 10% 0%;
+        float: left;
+    }
+    .imgs2{
+        width: 100%;
+        margin-top: 2%;
+        height: 33%;
+    }
+    .DTC3{
+        width: 100%;
+        height: 100%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin: 0;
+    }
+    .layer3{
+        width: 13%;
+        float: left;
+        margin: 1.7% 0% 0% 3%;
+    }
+    .truck2{
+        margin: 7.2% 0% 0%;
+    }
+    .truck3{
+        margin: 6.2% 0% 0%;
+    }
+    .layer4{
+        width: 13%;
+        margin: 1.9% 0% 0%;
+    }
+    .DTC4{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        width: 80%;
+        height: 70%;
+        margin: 4% 10% 0% 10%;
+        font-size: 15px;
+        float: left;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        text-align: justify;
+    }
+    .Opr{
+        font-size: 22px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        text-align: center;
+        width: 90%;
+        margin: 0% 5%;
+        color: #142137;
+    }
+    .ventajas{
+        height: 670px;
+    }
+    .Vntjs{
+        text-align: left;
+        margin: 3% 5% 0%;
+        width: 50%;
+        font-size: 24px;
+        color: #142137;
+    }
+    .columna1{
+        width: 50%;
+        height: 50%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .img1{
+        margin: 10% 30% 5%;
+        width:40%;
+    }
+    .p1{
+        font-size: 15px;
+        width: 80%;
+        margin: 5% 10%;
+    }
+    .columna2{
+        width: 50%;
+        height: 50%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .img2{
+        margin: 8% 30% 0%;
+        width: 40%;
+    }
+    .p2{
+        text-transform: none;
+        color: #ffffff;
+        text-align: justify;
+        font-size: 11px;
+        margin: 1.5% 5%;
+        letter-spacing: 0;
+        width: 90%;
+    }
+    .columna3{
+        width: 100%;
+        height: 50%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        margin-bottom: 5%;
+    }
+    .img3{
+        margin: 6% 40% 2%;
+        width:20%;
+    }
+    .p3{
+        font-size: 15px;
+        width: 50%;
+        margin: 1% 25%;
+    }
+    .riesgos{
+        font-size: 25px;
+    }
+    .columna4{
+        width: 50%;
+        height: 50%;
+        margin-left: 0;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .img4{
+        margin: 10% 30% 5%;
+        width: 40%;
+    }
+    .p4{
+        font-size: 15px;
+        width: 100%;
+        margin: 0% 0%;
+    }
+    .columna5{
+        width: 50%;
+        height: 50%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .img5{
+        margin: 10% 30% 5%;
+        width:40%;
+    }
+    .p5{
+        font-size: 13px;
+        width: 95%;
+        margin: 1% 2.5%;
+    }
+    .descripcion{
+        height: 1420px;
+    }
+    .div-cinco{
+        height: 1500px;
+    }
+    .desc{
+        margin-top: 2%;
+        text-align: center;
+        margin-left: 5%;
+        font-size: 24px;
+        border-top: 5px dashed #fac103;
+        border-bottom: 5px dashed #fac103;
+        padding-top: 0;
+        padding-bottom: 0px;
+        width: 90%;
+        height: 80px;
+    }
+    .arrow{
+        background-image: url(/IMG/Marco3\ prueba.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 90%;
+        height: 1150px;
+        margin: 5% 5%;
+    }
+    .ctrl{
+        margin: 5% 0% 0%;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .control{
+        width: 100%;
+        height: 280px;
+        margin-left: 0;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .img-ctrl{
+        width: 25%;
+        margin: 0% 37.5%;
+    }
+    .ctrl1{
+        width: 80%;
+        margin: 1% 10%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .seguimiento{
+        width: 100%;
+        height: 280px;
+        margin-left: 0;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .segto{
+        margin: 9% 0% 0%;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .img-segto{
+        width: 34%;
+        margin: 0% 32%;
+    }
+    .segto1{
+        width: 80%;
+        margin: 0% 10%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .sistematizacion{
+        width: 100%;
+        height: 280px;
+        margin-left: 0;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .sist{
+        font-size: 24px;
+        margin: 9% 0% 0%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .img-sist{
+        width: 34%;
+        margin: 2% 33% 0% 33%;
+    }
+    .sist1{
+        width: 90%;
+        margin: 1% 5%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .acompañamiento{
+        width: 100%;
+        height: 280px;
+        margin-left: 0;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        margin-bottom: 10%;
+    }
+    .acomp{
+        font-size: 24px;
+        margin: 12% 0% 0%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .acomp1{
+        width: 90%;
+        margin: 5% 5%;
+        font-size: 18px;
+        text-align: center;
+    }    
+    .img-acomp{
+        width: 30%;
+        margin: 0% 35%;
+    }
+    .desc1{
+        text-align: center;
+        margin: 0% 5% 0px;
+        border-bottom: 5px dashed #fac103;
+        font-size: 22px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 90%;
+    }
+    .services{
+        height: 1200px;
+    }
+    .lines{
+        margin: 5% 0%;
+        width: 100%;
+        height: 70px;
+    }
+    .serv1{
+        font-size: 35px;
+        font-weight: 700;
+        color: black;
+        margin: -5% 0% 0% 0%;
+        width: 100%;
+        padding-top: 1%;
+        text-align: center;
+    }
+    .globos{
+        background-image: none;
+        width: 100%;
+        height: 800px;    
+    }
+    .globo1{
+        background-image: url(/IMG/globo1.png);
+        background-size: 100% 100%; 
+        background-repeat: no-repeat;
+        width: 80%;
+        margin: -8% 0% 0%;
+        height: 260px;
+    }
+    .world{
+        width: 40%;
+        margin: 10% 30% 0%;
+    }
+    .world1{
+        width: 60%;
+        margin: 2% 20%;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    .globo2{
+        background-image: url(/IMG/globo2.png);
+        background-size: 100% 100%; 
+        background-repeat: no-repeat;
+        width: 80%;
+        height: 260px;
+        margin: 2% 0% 0% 20%;
+    }
+    .lock1{
+        width: 60%;
+        margin: 8% 20%;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    .globo3{
+        background-image: url(/IMG/globo1.png);
+        background-size: 100% 100%; 
+        background-repeat: no-repeat;
+        width: 80%;
+        height: 260px;
+        margin: 2% 0% 0%;
+    }
+    .mapa{
+        width: 50%;
+        margin: 10% 25% 0%;
+    }
+    .mapa1{
+        width: 60%;
+        margin: 2% 20%;
+        font-size: 28px;
+        color: white;
+        text-align: center;
+    }
+    .globo4{
+        background-image: url(/IMG/globo2.png);
+        background-size: 100% 100%; 
+        background-repeat: no-repeat;
+        width: 80%;
+        height: 260px;
+        margin: 2% 0% 0% 20%;
+    }
+    .radar{
+        width: 34%;
+        margin: 10% 33% 0%;
+    }
+    .radar1{
+        width: 60%;
+        margin: 2% 20%;
+        font-size: 28px;
+        color: white;
+        text-align: center;
+    }
+    .mapa2{
+        grid-template-rows: repeat(3, 1fr);
+        width: 100%;
+    }
+    .mapa3{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        width: 100%;
+        height: 500px;
+        margin: 0%;
+    }
+    .build{
+        width: 100%;
+        height: 450px;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .ubi1{
+        font-size: 20px;
+        width: 80%;
+        margin: 0% 10%;
+        color: #142137;
+    }
+    .logo{
+        width: 40%;
+        margin: 5% 30% 0% 30%;
+        background-color: rgba(228, 228, 228, 0.4);
+    }
+    .whatsApp3{
+        width: 50%;
+        margin: 5% 25% 8% 25%;
+    }
+    .num{
+        width: 60%;
+        color: #142137;
+        margin: 2px 20% 0px 20%;
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+        background-color: rgba(228, 228, 228, 0.4);
+    }
+    .email{
+        color: #142137;
+        font-size: 20px;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;    
+        margin: 0%;    
+        background-color: rgba(228, 228, 228, 0.4);
+    }
+    .redes{
+        width: 70%;
+        margin: 5% 15% 0%;
+        height: 55px;
+    }
+    .footer{
+        background: rgba(20, 33, 55, 0.80);
+        color:#fff;
+        font-size: 15px;
+        margin-top: 68%;
+        padding: 10px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 50%;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+}
