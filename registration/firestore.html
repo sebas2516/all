@@ -1,0 +1,77 @@
+función getFireStore() {
+
+ var configuración = {
+
+   'id_del_proyecto' : 'id_del_proyecto_aquí',
+
+   'clave_privada': 'clave_privada_aquí',
+
+   'client_email' : 'client_email_here',
+
+ };
+
+ var firestore = FirestoreApp.getFirestore(config.client_email, config.private_key, config.project_id);
+
+‍
+
+ var ss = SpreadsheetApp.getActiveSpreadsheet();
+
+ var hoja = ss.getActiveSheet();
+
+‍
+
+// las siguientes líneas dependen de la estructura de su base de datos
+
+// especifique el documento en Firestore para acceder reemplazando los países con el nombre de su base de datos
+
+ 
+
+ const allDocuments = firestore.getDocuments("países");
+
+ 
+
+// para cada columna y fila del documento seleccionado
+
+ 
+
+ for(var i = 0; i < todos los documentos.longitud; i++){
+
+   //inicializa la matriz que se imprimirá en Hojas de cálculo de Google
+
+   var miArray = [];
+
+   // accediendo a la primera columna, reemplace el "nombre" con el encabezado de su primera columna
+
+   var país = todos los Documentos[i].campos["nombre"];
+
+   myArray.push(país.stringValue);
+
+   //accediendo a la segunda columna que tiene varias entradas, reemplaza las “ciudades” con el encabezado de tu
+
+    //segunda columna
+
+   var ciudades = todos los Documentos[i].campos["ciudades"];
+
+   var ciudades2 = ciudades.arrayValue.values;
+
+   var ciudades3 = [];
+
+   for(var j = 0; j < ciudades2.longitud; j++){
+
+      ciudades3.push(ciudades.arrayValue.valores[j].stringValue);
+
+   }
+
+   myArray.push(ciudades3.join());
+
+   // accediendo a la tercera columna, reemplace la "mayúscula" con el encabezado de su tercera columna
+
+   var capital = todos los Documentos[i].campos["capital"];
+
+   miArray.push(capital.stringValue);
+
+   hoja.appendRow(miArray)
+
+ }
+
+}
